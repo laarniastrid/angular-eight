@@ -136,5 +136,10 @@
       }
     }
   },
-  "defaultProject": "angular-eight"
+  "defaultProject": "angular-eight",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
